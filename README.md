@@ -25,7 +25,7 @@ This repository contains the project for the Web Systems subject (31268). The pr
 ### Comments Page (comments.html)
 - Technical descriptions and comments about the project structure and implementation.
 
-## Technologies Used
+## Languages Used
 
 - HTML5
 - CSS3
