@@ -1,0 +1,1110 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  overflow-x: hidden;
+}
+
+header {
+  margin: 0;
+  width: 100%;
+  background-image: url('images/header%20background.png');
+  background-color: #0022ffdd;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  top: 0;
+}
+
+  .main {
+    display: block;
+    margin:auto;
+  }
+  
+  
+#overlay {
+  position: sticky;
+  box-sizing: border-box;
+  align-items: center;
+  margin: 0px;
+}
+
+img main {
+  float: left;
+  margin-right: 0px;
+}
+
+#Page {
+  margin-left: auto;
+  margin-right: auto;
+  color: white;
+  font-size: 50px;
+  font-weight: bolder;
+  text-shadow: 
+    2px 2px 0 #000,
+    4px 4px 0 #000,
+    6px 6px 0 #000;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+
+table {
+  border-collapse: separate;
+  text-indent: initial;
+  border-spacing: 10px;
+}
+
+footer {
+  text-align: center;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  background-color: black;
+  text-align: center;
+}
+
+.HomeLink li {
+  display: inline-block;
+  margin: 5px;
+  padding: 5px;
+}
+
+.HomeLink li a {
+  font-size: 20px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: white;
+  text-decoration: none;
+  padding: 25px;
+  transition: background-color 0.5s ease-in-out;
+}
+
+.HomeLink li a:hover {
+  background-color: white;
+  color: black;
+}
+
+.HomeLink li a:active {
+  background-color: gray;
+}
+
+.HomePage li:first-child a {
+  background-color: red;
+}
+
+.PastPage li:nth-child(2) a {
+  background-color: red;
+}
+
+.FuturePage li:nth-child(3) a {
+  background-color: red;
+}
+
+.CommentsPage li:nth-child(4) a {
+  background-color: red;
+}
+
+
+
+a {
+  color: white;
+}
+
+.profile {
+  color: rgb(255, 255, 255);
+  font-size: 32.5px;
+  font-weight: 900;
+  text-align: center;
+  font-family: system-ui, -apple-system, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  ;
+}
+
+table.info {
+  margin-left: auto;
+  margin-right: 0; 
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  border-collapse: separate;
+  border-spacing: 10px;
+  border: 2px solid black;
+  background-color: rgba(242, 242, 242, 0.879);
+  width: 500px;
+  max-width: 50%;
+  margin-bottom: 30px;
+}
+
+
+
+td strong {
+  font-weight: bold;
+  white-space: nowrap;
+}
+
+
+#container {
+  position: relative;
+  margin: 0;
+  margin-top: -25px;
+  width: 100%;
+  background-image: url("images/background.jpg");
+  background-color: #000;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 300px;
+  padding: 0 10px;
+}
+
+
+
+.profile-info .profile-pic {
+  position: relative;
+  width: 300px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 150px;
+  align-items: flex-start;
+  margin-top: 100px;
+  margin-bottom: 50px;
+  margin-left: 40px ;
+  margin-right: auto;
+}
+
+.profile-info .profile-pic img {
+  object-fit: contain;
+}
+
+.info {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  flex-direction: column;
+  text-align: left;
+  max-width: 500px;
+  margin-left: auto; 
+}
+
+
+.info li {
+  list-style: none;
+  font-size: 24px;
+  margin-bottom: 0px;
+}
+
+.Introduction {
+  max-width: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.introduction {
+  margin-top: 50px;
+  text-align: center;
+  margin:auto;
+  font-weight: bolder;
+  font-size: 35px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.intro-paragraph {
+  line-height: 1.5;
+  margin-left: 100px; /* Change from 450px */
+  margin-right: auto; /* Change from 350px */
+  text-align: left;
+  font-size: 24px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.subjects {
+  font-family: 'Courier New', Courier, monospace;
+  margin-left: 200px; /* Change from 550px */
+  margin-right: auto;
+  font-size: 18px;
+  font-weight: bolder;
+}
+
+
+
+footer {
+  background-color: black;
+  color: white;
+  padding: 20px;
+  border: none;
+}
+
+.Experience {
+  margin-top: 50px;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 30px;
+  background-color: rgb(0, 0, 0);
+  border-radius: 10px;
+  }
+  
+
+  .Experience h2.edu {
+  text-align: center;
+  text-shadow: 0px 0px 10px #ffffff88, 0px 0px 20px #ffffff88, 0px 0px 30px #ffffff88, 0px 0px 40px rgb(0, 23, 23), 0px 0px 70px rgb(0, 23, 23), 0px 0px 80px rgb(0, 23, 23), 0px 0px 100px rgb(0, 23, 23), 0px 0px 150px rgb(0, 23, 23);
+  font-family: system-ui, -apple-system, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 40px;
+  font-weight: 900;
+  margin-bottom: 30px;
+  color: rgb(255, 255, 255);
+  text-transform: uppercase;
+  }
+  
+  .Experience section {
+  margin-bottom: 30px;
+  }
+  
+  .Experience h3 {
+  font-size: 28px;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: 700;
+  color: rgb(255, 0, 0);
+  text-shadow: 0px 0px 10px #88000088, 0px 0px 20px #88000088, 0px 0px 30px #88000088, 0px 0px 40px #88000088, 0px 0px 70px #88000088, 0px 0px 80px #88000088, 0px 0px 100px #88000088, 0px 0px 150px #88000088;
+  margin-bottom: 10px;
+  }
+  
+  .Experience .date {
+  font-size: 20px;
+  font-weight: 600;
+  color: rgb(255, 255, 255);
+  margin-bottom: 20px;
+  }
+  
+  .Experience ul {
+  list-style: none;
+  margin-left: 0;
+  font-size: 22px;
+  font-weight: 600;
+  color: rgb(255, 255, 255);
+  }
+  
+
+  .Institution {
+  margin-left: 50px;
+  }
+  
+  .LHP_degree li {
+  color: #ffffff;
+  font-family: 'Rockwell';
+  margin-bottom: 10px;
+  }
+
+  .HCMUT li {
+  color: #ffffff;
+  font-family: 'Rockwell';
+  margin-bottom: 10px;
+  }
+  
+  .UTS li {
+  color: #ffffff;
+  font-family: 'Rockwell';
+  margin-bottom: 10px;
+  }
+  
+  .PastContainer {
+    background-image: url('images/sydney.jpg');
+    background-color: #000;
+    background-size: cover;
+    background-position: center center;
+  position: sticky;
+  max-width: 100%;
+  background-repeat: no-repeat;
+  padding: 0 10px;
+  }
+
+  .Institution {
+position: relative;
+padding-left: 50px;
+}
+
+
+.Institution:before {
+content: "";
+position: absolute;
+top: 0;
+left: 0;
+height: 100%;
+width: 2px;
+background-color: rgb(255, 255, 255);
+}
+
+.timeline {
+position: relative;
+}
+
+.timeline-content {
+position: relative;
+margin-bottom: 50px;
+}
+
+.timeline-content:last-child {
+margin-bottom: 0;
+}
+
+.date {
+  margin-right: 40px;
+  position: absolute;
+  top: 50%;
+  right: -120px;
+  transform: translateY(-50%);
+  font-size: 20px;
+  font-weight: 600;
+  color: rgb(0, 225, 255);
+  white-space: nowrap; /* prevent overflowing */
+}
+
+
+.timeline-content .date {
+  position: absolute;
+  top: 50%;
+  right: -30px; /* adjust the position */
+  transform: translateY(-50%);
+  font-size: 20px;
+  font-weight: bolder;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: rgb(194, 251, 255);
+  text-shadow: 0 0 10px rgb(0, 232, 253), 0 0 20px rgb(0, 232, 253), 0 0 30px rgb(0, 232, 253), 0 0 40px rgb(0, 232, 253), 0 0 50px rgb(0, 232, 253), 0 0 60px rgb(0, 232, 253), 0 0 70px rgb(0, 232, 253);
+  white-space: nowrap; /* prevent overflowing */
+  z-index: 2; /* bring it to the front */
+}
+
+
+.ExperienceContainer {
+  opacity: 0.9;
+}
+
+
+.FutureContainer {
+    background-image: url('images/library.jpg');
+    background-color: #ffe8a3dd;
+    background-size: cover;
+    background-position: center center;
+  position: sticky;
+  max-width: 100%;
+  background-repeat: no-repeat;
+  padding: 0 10px;
+  }
+
+  .PlanContainer{
+    opacity: 0.95;
+  }
+
+  .Plan {
+    margin-top: 35px;
+    max-width: 1080px;
+    margin: 0 auto;
+    padding: 18px;
+    background-color: rgb(245, 235, 221);
+    border-radius: 10px;
+  }
+  
+  .PlanContent {
+    overflow: hidden;
+  }
+  
+  .PlanImage {
+    flex-basis: 50%;
+    padding-right: 20px;
+    float: left;
+  }
+  
+  .PlanText {
+    flex-basis: 50%;
+  }
+  
+  .PlanImage img {
+    max-width: 100%;
+    width: 160px;
+  }
+  
+  .Path {
+    text-align: center;
+    font-family: system-ui, -apple-system, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 35px;
+    font-weight: 900;
+    margin-bottom: 30px;
+    color: rgb(255, 0, 0);
+    text-transform: uppercase;
+  }
+  
+  .CareerIntro {
+    line-height: 1.5;
+    font-weight: 500;
+    text-align: left;
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+  
+  .network {
+    line-height: 1.5;
+    text-align: left;
+    font-style: italic;
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  
+  .net-overview {
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 900;
+    margin-bottom: 30px;
+    color: rgb(0, 0, 0);
+    text-transform: uppercase;
+  }
+  
+  .CareerPlan {
+    text-align: center;
+  }
+  
+  .IT-Path {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+  }
+  
+  .CareerPlan p.it-description {
+    font-size: 12px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 400;
+  }
+
+  #CommentsContainer {
+    position: relative;
+    margin: auto;
+    width: 100%;
+    height: 300px;
+    width: auto;
+    background-image: url('images/HTML-CSS.jpg');
+    background-color: #5f1a97;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    top: 0;
+    bottom: auto;
+  }
+
+  .websites {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    max-width: 500px;
+    max-height: 627px;  
+  }
+
+  .AestheticsList img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    max-width: 227.5px;
+    max-height: 128px;  
+  }
+
+#structure td, #structure th {
+  border: 1px solid #dddd;
+  padding: 8px;
+}
+
+
+
+#TableContainer {
+  display: block;
+  justify-content: center;
+  align-items: center;
+}
+
+  h1.Technical, h1.Aesthetics, h1.Accessibility {
+    position: relative;
+    text-align: center;
+    font-family: system-ui, -apple-system, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 35px;
+    font-weight: 900;
+    margin-bottom: 30px;
+    color: rgb(225, 5, 5);
+    text-transform: uppercase;
+  }
+
+  h1.Aesthetics, h1.Accessibility {
+    margin-top: 40px;
+    margin-bottom: 20px;
+  } 
+
+   h2.WebStructure, h2.WebPage {
+    text-align: left;
+    margin-left:75px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 900;
+    margin-top: 0;
+    color: rgb(0, 51, 217);
+    text-transform: uppercase;
+  }
+  h3.HTML, h3.CSS, h3.StructureDescription, h3.GraphicDescription, h3.FontDescription, h3.WhiteDescription, h3.responsive, h3.altributes, h3.contrast, h3.tabidx{
+    margin-top: 25px;
+    text-align: left;
+    margin-left: 75px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 800;
+    color:#2f007b ;
+  }
+
+  ol.HTMLDescription, ol.CSSDescription,.AestheticsList ul{
+    text-align: left;
+    margin-left: 80px;
+    margin-right: 80px;
+    font-size: 16px;
+    line-height: 2;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+
+
+  .StructureIntro, .des, .AestheticsIntro, .resdes, .altdes, .condes, .tabdes, .classdes{
+    text-align: left;
+    margin-left: 75px; 
+    margin-right: 75px;
+    line-height: 1.5;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 18px;
+  }
+
+ #structure {
+  border-collapse: collapse;
+  width: 100%;
+  max-width: 800px;
+  margin: auto;
+  margin-bottom: 50px;
+ } 
+
+ #structure td {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+ }
+
+
+
+#structure th {
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+  font-weight: 900;
+  padding-top: 12px;
+  font-size: 20px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #5f1a97;
+  color: white;
+}
+
+
+
+.ResponsiveImage {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  }
+  
+  .ResponsiveImage div {
+  margin: 10px;
+  text-align: center;
+  }
+  
+  .ResponsiveImage img {
+    max-width: 100%;
+    max-height: 500px;
+  }
+  
+  .ResponsiveImage p {
+    font-size: 12px;
+    margin-top: auto;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+
+  .pastpage, .tabbtn {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    max-height: 500px;
+  }
+  
+/* Responsive CSS */
+@media screen and (max-width: 868px) {
+
+  #container {
+    max-height: 150px;
+    max-width: 100%;
+  }
+  
+  .ResponsiveImage img {
+  max-width: 100%;
+  max-height: 200px;
+  }
+
+  .pastpage, .websites {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    max-width: 400px;
+    max-height: 502px;  
+  }
+
+  .main {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 200px;
+  }
+
+
+  .main {
+    max-width: 200px;
+    max-height: 106.5px;
+  }
+  #Page {
+    margin-right: auto;
+    font-size: 30px;
+  }
+  
+    nav {
+    max-height: 40px;
+    display: block;
+    text-align: center;
+  }
+
+
+  .HomeLink li {
+    display: inline-block;
+    margin: 5px;
+    padding: 5px;
+    object-position: center;
+  }
+  
+  .HomeLink li a {
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+    transition: background-color 0.5s ease-in-out;
+  }
+
+  .profile-info .profile-pic {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    position: relative;
+    max-width: 180px;
+    max-height: 180px;
+    border-radius: 90px;
+    margin-top: 5px;
+    margin-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+
+  .intro-paragraph {
+    font-size: 16px;
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  .subjects {
+    margin-left: 20px;
+    font-size: 14px;
+  }
+
+  .Experience {
+    max-width: 100%;
+    padding: 20px;
+  }
+
+  .Experience h2.edu {
+    font-size: 32px;
+    margin-bottom: 20px;
+  }
+
+  .Experience section {
+    margin-bottom: 20px;
+  }
+
+  .Experience h3 {
+    font-size: 24px;
+    margin-bottom: 5px;
+  }
+
+  .Experience .date {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+
+  .Experience ul {
+    font-size: 18px;
+  }
+
+  .Institution {
+    margin-left: 20px;
+    margin-right: auto;
+  }
+
+  .LHP_degree li,
+  .HCMUT li,
+  .UTS li {
+    margin-bottom: 5px;
+  }
+
+  .timeline-content {
+    margin-bottom: 30px;
+  }
+
+  .date {
+    margin-right: 20px;
+    right: -100px;
+  }
+
+  .timeline-content .date {
+    right: -20px;
+    font-size: 16px;
+  }
+
+  table.info {
+    font-size: 14px; 
+    border-collapse: separate;
+    border-spacing: 10px;
+    border: 2px solid black;
+    margin: 20px;
+    margin-top: 100px;
+    margin-right: auto;
+    margin-left:auto;
+    background-color: rgba(242, 242, 242, 0.879);
+    width: 300px;
+    max-width: 100%;
+  }
+
+  .websites, .pastpage {
+    width: 50%;
+    max-width: 300px;
+    max-height: 376px;  
+  }
+
+
+
+.introduction:before {
+content: "";
+display: block;
+width: 100%;
+height: 2px;
+background-color: black;
+margin-top: 40px;
+margin-bottom: 40px;
+}
+
+
+
+footer {
+  max-height: 100px;
+  font-size: 5px;
+}
+
+.Plan {
+  max-width: 450px;
+}
+
+.PlanImage {
+  max-width: 80px;
+}
+
+.network {
+  font-size: 8px;
+}
+
+.Path {
+ font-size: 15px;
+}
+
+.net-overview {
+  font-size: 13px;
+}
+
+.CareerPlan p.it-description {
+  font-size: 6px;
+}
+
+.CareerIntro {
+  font-size: 10px;
+}
+
+#structure {
+  margin-right: auto;
+  margin-left:auto;
+  max-width: 600px;
+}
+
+#structure td {
+  font-size:10px;
+}
+
+#structure th {
+  font-size: 12px;
+}
+
+#DescriptionContainer p, li{
+  font-size: 14px;
+}
+
+#DescriptionContainer h1 {
+  font-size: 20px;
+}
+
+#DescriptionContainer h2 {
+  font-size: 17px;
+}
+
+#DescriptionContainer h3 {
+  font-size: 15px;
+}
+
+#DescriptionContainer p {
+  margin-left: 20px;
+  margin-right: auto;
+}
+#DescriptionContainer h2{
+  margin-left: 20px;
+  margin-right: auto;
+}
+#DescriptionContainer h3{
+  margin-left: 20px;
+  margin-right: auto;
+}
+
+
+}
+
+@media screen and (min-width:868px) and (max-width: 1024px) {
+  #Page{
+    font-size: 40px;
+  }
+
+  .intro-paragraph {
+    margin: 30px;
+
+  }
+
+  #structure {
+  max-width: 750px;
+}
+
+  .main {
+    max-width: 250px;
+    max-height: 133.2px;
+  }
+
+
+
+  .network {
+  font-size: 12px;
+  }
+
+
+
+  .Plan {
+    max-width: 768px;
+  }
+
+
+  #DescriptionContainer p {
+  margin-left: 30px;
+  margin-right: auto;
+}
+#DescriptionContainer h2{
+  margin-left: 30px;
+  margin-right: auto;
+}
+#DescriptionContainer h3{
+  margin-left: 30px;
+  margin-right: auto;
+}
+}
+
+@media screen and (max-width: 600px) {
+  .Experience {
+    max-width: 375px;
+    padding: 15px;
+  }
+
+  nav {
+    max-height: 30px;
+    display: block;
+    text-align: center;
+  }
+
+
+  .HomeLink li {
+    display: inline-block;
+    margin: 3.75px;
+    padding: 3.75px;
+    object-position: center;
+  }
+  
+  .HomeLink li a {
+    font-size: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    text-decoration: none;
+    padding: 3.75px;
+    transition: background-color 0.5s ease-in-out;
+  }
+
+  #Page {
+  font-size: 20px;
+  }
+  .Experience h2.edu {
+    font-size: 15px;
+  }
+
+  .main {
+    max-width: 150px;
+    max-height: 80px;
+  }
+
+
+  #container {
+    max-height: 150px;
+  }
+
+  .profile-info .profile-pic {
+    height: 150px;
+    width: 150px;
+    border-radius: 75px;
+    margin-top: 25px;
+  }
+
+
+  .Experience h3 {
+    font-size: 12px;
+    margin-bottom: 5px;
+  }
+
+  .Experience .date {
+    font-size: 8px;
+    margin-bottom: 10px;
+  }
+
+  .Experience ul {
+    font-size: 10px;
+  }
+
+  .Institution {
+    margin-left: 5px;
+  }
+
+  .LHP_degree li,
+  .HCMUT li,
+  .UTS li {
+    font-size: 8px;
+    margin-left:0;
+  }
+
+  .timeline-content {
+    margin-bottom: 30px;
+  }
+
+  .date {
+    margin-right: 20px;
+    right: -80px;
+  }
+
+  .timeline-content .date {
+    right: -20px;
+    font-size: 8px;
+  }
+  table.info{
+    margin-bottom: 10px;
+    max-width: 250px
+  }
+  
+  .info tr{
+    font-size: 10px;
+  }
+  
+  .introduction {
+    margin-top: -15px;
+    font-size: 15px;
+  }
+  
+  .intro-paragraph, .subjects {
+    font-size: 12px;
+  }
+
+#CommentsContainer {
+  height: 100px;
+  width: 100%;
+}
+
+  #structure {
+  max-width: 300px;
+  margin: 0 auto; 
+  display: block; 
+  margin-bottom: 30px;
+
+}
+
+#structure td {
+  font-size:10px;
+}
+
+#structure th {
+  font-size: 12px;
+}
+
+#DescriptionContainer p, li{
+  font-size: 12px;
+}
+
+#DescriptionContainer h1 {
+  font-size: 16px;
+}
+
+#DescriptionContainer h2 {
+  font-size: 14.5px;
+}
+
+#DescriptionContainer h3 {
+  font-size: 13.5px;
+}
+
+#DescriptionContainer p {
+  margin-left: 10px;
+  margin-right: auto;
+}
+#DescriptionContainer h2{
+  margin-left: 10px;
+  margin-right: auto;
+}
+#DescriptionContainer h3{
+  margin-left: 10px;
+  margin-right: auto;
+}
+
+#DescriptionContainer li {
+  margin-left: -50px;
+  margin-right: auto;
+}
+
+
+
+  }
+
+
+
+
+
+

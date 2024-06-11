@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>My Comments</title>
+    <link rel="stylesheet" href="websystems.css">
+  </head>
+
+  <body>
+    <header>
+      <div id="overlay">
+        <a href="index.html" tabindex ="1">
+          <img class="main" src="images/uts%20logo.png" alt="UTS LOGO">
+        </a>  
+        <h1 id ='Page' tabindex="2">31268 - Web Systems Assignment</h1>
+      </div>
+      <nav>
+        <div class ="HomeLink">
+          <ul class="CommentsPage">
+            <li><a href="index.html" tabindex="3">HOME</a></li>
+            <li><a href="past.html" tabindex="4">PAST</a></li>
+            <li><a href="future.html" tabindex="5">FUTURE</a></li>
+            <li><a href="comments.html" tabindex="6">COMMENTS</a></li>
+          </ul>
+          </div>
+      </nav>
+    </header>
+    <div id = CommentsContainer></div>
+    <div id = "DescriptionContainer">
+      <h1 class= "Technical" tabindex="7">TECHNICAL SECTION</h1>
+      <h2 class = "WebStructure" tabindex="8">I. Structure of a Website</h2>
+      <p class = "StructureIntro" tabindex="9">My website has 4 webpages and 1 cascading stylesheet. The table below provides an overall outline of structure of my website.</p>
+      <div id = "TableContainer">
+      <table id="structure" tabindex="10">
+        <tr>
+          <th>FILENAME</th>
+          <th>TITLE</th>
+          <th>EXTENSION</th>
+          <th>DESCRIPTION</th>
+        </tr>
+        <tr>
+          <td>index.html</td>
+          <td>HOME</td>
+          <td>.html</td>
+          <td>The Homepage of my websites</td>
+        </tr>
+        <tr>
+          <td>past.html</td>
+          <td>MY PAST</td>
+          <td>.html</td>
+          <td>Description of my past education.</td>
+        </tr>
+        <tr>
+          <td>future.html</td>
+          <td>MY FUTURE</td>
+          <td>.html</td>
+          <td>Description of my future plans & careers.</td>
+        </tr>
+        <tr>
+          <td>comments.html</td>
+          <td>COMMENTS</td>
+          <td>.html</td>
+          <td>This page contains some comments & description to explain how I worked on this website.</td>
+        </tr>
+        <tr>
+          <td>websystems.css</td>
+          <td>N/A</td>
+          <td>.css</td>
+          <td>The stylesheet that controls the aesthetics of my website.</td>
+        </tr>
+        </table>
+        </div>
+        <h2 class = "WebPage" tabindex="11">II. Structure of each WebPages</h2>
+        <p class = "des" tabindex="12"> The second part is about structure of <b>HTML</b> and <b>CSS</b> files. In terms of <b>HTML</b>, all the webpages are basically in the similar structure, so Home Page is used to provide explanation of its breakdown structure. When it comes to <b>CSS</b> file, the description/explanation of selectors is provided below.</p>
+        <img class = "websites" src = "images/websites.jpg" alt = "Website Structure">
+        <h3 class = "HTML" tabindex="13">a. HTML Structure</h3>
+        <ol class = "HTMLDescription" tabindex="14">
+          <li><code><b>&lt;!DOCTYPE html&gt;</b></code>: This declaration defines the document type and version of HTML being used.</li>
+          <li><code><b>&lt;html lang="en"&gt;</b></code>: The opening and closing <code><b>&lt;html&gt;</b></code> tags indicate the beginning and end of an HTML document. The <code><b>lang</b></code> attribute specifies the language of the document (in this case, English).</li>
+          <li><code><b>&lt;head&gt;</b></code>: The <code><b>&lt;head&gt;</b></code> element contains meta-information about the document, such as character encoding, viewport settings, compatibility mode, and external resources (like CSS). It also contains the <code><b>&lt;title&gt;</b></code> element which provides the title of the document, shown in the browser's title bar or tab.</li>
+          <li><code><b>&lt;body&gt;</b></code>: The <code><b>&lt;body&gt;</b></code> element contains the actual content of the document, including headings, paragraphs, images, links, and other elements. In this document, the content is divided into three main sections: header, main, and footer.</li>
+          <li><code><b>&lt;header&gt;</b></code>: The <code><b>&lt;header&gt;</b></code> element usually contains the site's logo, title, and main navigation. In this document, it has an overlay div, an image (UTS logo), a heading (assignment title), and a navigation bar with links to different pages.</li>
+          <li><code><b>&lt;div id="container"&gt;</b></code>: This <code><b>&lt;div&gt;</b></code> element represents the main content area of the page. It has a heading ("PROFILE") and a nested <code><b>&lt;div&gt;</b></code> with the class "profile-info" that contains an image (profile picture) and other information about the user in a table format.</li>
+          <li><code><b>&lt;div class="Introduction"&gt;</b></code>: Another <code><b>&lt;div&gt;</b></code> element that contains an introduction section with a table of user information, an introduction paragraph, and a list of subjects the user is studying.</li>
+          <li><code><b>&lt;footer&gt;</b></code>: The <code><b>&lt;footer&gt;</b></code> element typically contains copyright information, contact information, or other supplementary information about the page. In this document, the footer contains a copyright statement.</li>
+        </ol>
+        <p class = "classdes" tabindex="15">The HTML document also makes use of classes (e.g., <code><b>.header</b></code> and <code><b>.footer</b></code>) to apply styles and organize the structure. These classes are referenced in the external CSS file (<b>"websystems.css"</b>) linked in the <code><b>&lt;head&gt;</b></code> section.</p>
+        <h3 class = "CSS" tabindex="16">b. CSS Structure</h3>
+        <ol class="CSSDescription" tabindex="17">
+          <li><b><code>*</code></b>: This is a universal selector that targets all elements on the page. In this case, it sets the box-sizing property to border-box, which ensures that an element's total width and height include its padding and border.</li>
+          <li><b><code>body</code></b>: This selector targets the body element of the page and sets the margin to 0.</li>
+          <li><b><code>header</code></b>: This selector targets the header element of the page and sets its margin, width, background image, background position, and size.</li>
+          <li><b><code>#overlay</code></b>, <b><code>#Page</code></b>: These are ID selectors targeting elements with respective IDs. The former targets an element with the ID 'overlay' and sets its position, padding, box-sizing, display, align-items, and margin. The latter targets an element with the ID 'Page' and sets its left and right margin, position, color, font-size, font-weight, text-shadow, transform, perspective, text-align, text-transform, and font-family.</li>
+          <li><b><code>img main</code></b>: This selector targets the 'main' element inside an 'img' element and sets its float and margin-right properties.</li>
+          <li><b><code>table</code></b>, <b><code>footer</code></b>, <b><code>nav</code></b>: These selectors target table, footer, and nav elements, respectively. They set various properties like border-collapse, text-indent, border-spacing, text-align, font-family, display, and background-color.</li>
+          <li><b><code>.HomeLink li</code></b>, <b><code>.HomeLink li a</code></b>, <b><code>.HomeLink li a:hover</code></b>, <b><code>.HomeLink li a:active</code></b>: These are class and descendant selectors that target 'li' elements inside an element with the class 'HomeLink'. They set various properties like display, margin, padding, font-size, font-family, color, text-decoration, padding, and transition. The ':hover' and ':active' pseudo-classes target the link when it is hovered over and clicked, respectively.</li>
+          <li><b><code>.HomePage li:first-child a</code></b>, <b><code>.PastPage li:nth-child(2) a</code></b>, <b><code>.FuturePage li:nth-child(3) a</code></b>, <b><code>.CommentPage li:nth-child(4) a</code></b>: These selectors use a combination of class selectors and pseudo-classes to target specific child elements inside elements with the specified classes. They set the background-color property for each target.</li>
+          <li><b><code>a</code></b>, <b><code>.profile</code></b>, <b><code>table.info</code></b>, <b><code>td strong</code></b>, <b><code>.container</code></b>, <b><code>.profile-info</code></b>, <b><code>.profile-info .profile-pic</code></b>, <b><code>.profile-info .profile-pic img</code></b>, <b><code>.profile-info .info</code></b>, <b><code>.profile-info .info li</code></b>, <b><code>.Introduction</code></b>, <b><code>.introduction</code></b>, <b><code>.intro-paragraph</code></b>, <b><code>.subjects</code></b>: These selectors target various elements with specific tags or classes and set numerous properties for styling.</li>
+          <li><b><code>.Experience</code></b>, <b><code>.Experience h2.edu</code></b>, <b><code>.Experience section</code></b>, <b><code>.Experience h3</code></b>, <b><code>.Experience .date</code></b>, <b><code>.Experience ul</code></b>, <b><code>.Institution</code></b>, <b><code>.LHP_degree li</code></b>, <b><code>.HCMUT li</code></b>, <b><code>.UTS li</code></b>, <b><code>.PastContainer</code></b>, <b><code>.Institution:before</code></b>, <b><code>.timeline</code></b>, <b><code>.timeline-content</code></b>, <b><code>.timeline-content:last-child</code></b>, <b><code>.date</code></b>, <b><code>.timeline-content .date</code></b>, <b><code>.ExperienceContainer</code></b>, <b><code>.FutureContainer</code></b>, <b><code>.PlanContainer</code></b>, <b><code>.Plan</code></b>, <b><code>.PlanContent</code></b>, <b><code>.PlanImage</code></b>, <b><code>.PlanText</code></b>, <b><code>.PlanImage img</code></b>, <b><code>.Path</code></b>, <b><code>.CareerIntro</code></b>, <b><code>.network</code></b>, <b><code>.net-overview</code></b>, <b><code>.CareerPlan</code></b>, <b><code>.IT-Path</code></b>, <b><code>.CareerPlan p.it-description</code></b>: These selectors are a mix of class, tag, and pseudo-class selectors that target various elements within the web page and apply a wide range of styles to them.</li>
+        </ol>
+        <h1 class= "Aesthetics" tabindex="18">AESTHETIC SECTION</h1>
+        <p class = "AestheticsIntro" tabindex="19">Generally, this website's aesthetic is designed to provide users with a visually appealing and intuitive experience. The layout showcases a harmonious blend of colors, typography, and imagery, while also maintaining a professional and organized appearance. The use of background images, carefully chosen fonts, and smooth transitions creates an immersive atmosphere that invites users to explore the website's content. The aim is to evoke a sense of sophistication, modernity, and approachability, allowing users to perceive my webpages as both informative and engaging. The aspects of my Webpage's aesthetics are provided below.</p>
+        <div class ="AestheticsList">
+        <h3 class = "StructureDescription" tabindex="20">a. Structure, Layout & Effect (Interactivity)</h3>
+          <ul>
+            <li>The first webpage and last webpage have similar structure, so do the others.</li>
+            <li>The website features a full-width header with a background image, which immediately captures the user's attention and sets the tone for the rest of the site.</li>
+            <li>The navigation bar uses a flexbox layout to center its contents and ensure a responsive design. The hover and active states of the navigation links are styled to provide clear visual feedback to the user.</li>
+            <li>Content is organized into distinct sections, each with its own background image or color to visually separate them from one another. This creates a clear hierarchy and helps guide the user through the site.</li>
+            <li>The use of tables and lists throughout the site helps to present information in a clear and organized manner, making it easier for users to digest.</li>
+            <li>The website utilizes text-shadow effects on headings and other key elements to create depth and enhance legibility against contrasting backgrounds.</li>
+            <li>The sticky positioning of certain elements, like the background images, adds a layer of interactivity and visual interest as users scroll through the site.</li>
+          </ul>
+        <h3 class = "GraphicDescription" tabindex="21">b. Graphical Features</h3>
+          <ul>
+            <li>The color palette is carefully chosen, with a mix of white, black, <span style="color:red">red</span>, <span style="color:blue">blue</span>, and <span style="color:rgb(59, 59, 59)">grey</span> tones to create contrast and draw attention to key elements.</li>
+            <img src = "images/color.jpg" alt = "Color Pallette">
+            <li>In <span style= "color:#2f007b "><b>Structure</b></span> section, I have mentioned that <b>PAST</b> and <b>FUTURE</b> have similar stucture. However, the color and concept of 2 pages are completely contrast. The reason I chose the bright background image and colors concept for <b>FUTURE</b> page is that I would like to have a bright future, so do people. When it comes to <b>PAST</b> page, I would like this page to have contrast concept to <b>FUTURE</b> one. Additionally, contrast neon texts significantly suit the background image and concept of this page. The dark concept helps reminisce about great memories that never return again.</li>
+            <li>Background images are used strategically to enhance the visual appeal of specific sections, such as the header, experience, and comments container. These images are set to cover the full width of the container while maintaining their aspect ratio, giving the website a polished and professional appearance.</li>
+            <li>The timeline feature uses a vertical line and date labels to create a clear and organized presentation of my past education. The use of color and text shadows adds depth and highlights important information.</li>
+          </ul>
+        <h3 class = "FontDescription" tabindex="22">c. Typyography</h3>
+          <ul>
+          <li>The primary font used in the website is <span style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;"><b>'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', and sans-serif</b></span>, which provides a modern and clean look.</li>
+          <li>In certain sections, other fonts like <span style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;"><b>'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif</b></span> and <span style="font-family: Verdana, Geneva, Tahoma, sans-serif;"><b>Verdana, Geneva, Tahoma,</b></span> and <span style = "font-family: 'Courier New', Courier, monospace;"><b>'Courier New'</b></span>  are used to create variety and emphasize specific content.</li>
+          <li>My website primarily uses white for its text color, which contrasts well with the dark backgrounds. However, there are instances of red, black, and other colors being used to highlight specific sections or elements, such as headings, links, and important information.</li>
+          </ul>
+        <h3 class = "WhiteDescription" tabindex="23">d. White Spacing</h3>
+          <ul>
+            <li>White space is used effectively to balance the site's content, preventing it from feeling cluttered or overwhelming.</li>
+            <li>The site's tables use border-spacing to create space between cells, improving readability and creating a cleaner look.</li>
+          </ul>
+        </div>
+        <h1 class= "Accessibility" tabindex="24">ACCESSIBILITY SECTION</h1>
+        <h3 class = "responsive" tabindex="25">a. Responsive Design</h3>
+          <p class="resdes" tabindex="26">First, the website seems to have a responsive design with media queries that adjust the layout and font sizes based on the screen size. This is important for accessibility because it allows the website to be viewed on different devices with varying screen sizes (max width: under 600px; 600px to 868px and 868px to 1024px)</p>
+          <div class = "ResponsiveImage">
+            <div style="margin:10px;">
+              <img src="images/mobile.jpg" alt="Responsive Design Image 1" />
+              <p>Image 1: Mobile view of the website</p>
+            </div>
+            <div style="margin:10px;">
+              <img src="images/tablet.jpg" alt="Responsive Design Image 2" />
+              <p>Image 2: Tablet view of the website</p>
+            </div>
+            <div style="margin:10px;">
+              <img src="images/pc%20view.jpg" alt="Responsive Design Image 3" />
+              <p>Image 3: Desktop view of the website</p>
+            </div>
+          </div>
+          <h3 class = "altributes" tabindex="27">b. Alt Altributes</h3>
+          <p class = "altdes" tabindex="28">The second factor is the use of alt attributes on images. Alt attributes provide a description of the image content for screen readers, which is important for users who are visually impaired and rely on these tools to understand the content of the website.</p>
+          <h3 class = "contrast" tabindex="29">c. Contrast</h3>
+          <p class = "condes" tabindex="30">The third factor is the contrast between the background color and text color. Good contrast is important for readability, particularly for users with visual impairments.</p>
+          <img class ="pastpage" src = 'images/past%20page.jpg' alt = "Past Page">
+          <h3 class = "tabidx" tabindex="31">d. Tab Index</h3>
+          <p class = "tabdes" tabindex="32">The final factor is the use of tabindex can improve the accessibility of a website for users who have difficulty using a mouse or other pointing device, by providing a logical and intuitive order for keyboard navigation.</p>
+          <img class = "tabbtn" src = "images/tabkey.jpg" alt="Tab button image">
+    </div>
+    <footer>
+      <p tabindex="33">©2023 Web Assignment Tom</p>
+    </footer>
+  </body>
+</html>
+
