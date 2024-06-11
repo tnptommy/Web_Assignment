@@ -1,4 +1,4 @@
-# 31268 - Web Systems Assignment
+# Web Assignment
 
 This repository contains the project for the Web Systems subject (31268). The project showcases a website that includes multiple sections: Home, Past, Future, and Comments.
 
