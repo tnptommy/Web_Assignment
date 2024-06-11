@@ -2,6 +2,8 @@
 
 This repository contains the project for the Web Systems subject (31268). The project showcases a website that includes multiple sections: Home, Past, Future, and Comments.
 
+**Author:** Tommy Huynh
+
 ## Project Structure
 
 - **index.html**: The homepage of the website.
@@ -37,5 +39,5 @@ This repository contains the project for the Web Systems subject (31268). The pr
    git clone <repository-url>
 
 2. Open index.html in a web browser to start navigating the website.
-Author
-Tom - Bachelor of Information Technology student at UTS
+
+
